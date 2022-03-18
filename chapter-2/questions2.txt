@@ -1,0 +1,70 @@
+Question 1.
+True and False
+
+Question 2.
+not, and and or (evaluated in this order)
+
+Question 3.
+For and, 
+True and True == True
+True and False == False
+False and False == False
+
+For or,
+True or True == True
+True or Flase == True
+False or False == False
+
+For not,
+not True == False
+not False == True
+
+Question 4.
+a, False
+b, False
+c, True
+d, False
+e, True
+
+Question 5.
+== , != , < , > , <= , >=
+
+Question 6.
+The assignment operator assigns the value to a variable.
+The equal to operator compares if the values are the same.
+
+Question 7.
+A condition evaluates to a single boolean value (True or False).
+Used in flow control statements.
+
+Question 8.
+spam = 0
+if spam == 10:
+    print('eggs')       ===> block 1
+    if spam > 5:
+        print('bacon')  ===> block 2
+    else:
+        print('ham')    ===> block 3
+    print('spam')
+print('spam')
+
+Question 9.
+Refer to question9.py
+
+Question 10.
+ctrl + c
+
+Question 11.
+Break takes you out of the loop
+Continue returns you back to the start of the loop.
+
+Question 12.
+range(10) implies starting at 0, argument will be up to but not including (i.e 0 - 9).
+range(0, 10) specifies 0 as starting point, everything up to 10 not including.
+range(0, 10, 1) specifies 0 as starting point, everything up to 10 not including. Stepping 1 at a time.
+
+Question 13.
+Refer to question13.py
+
+Question 14.
+spam.bacon()
