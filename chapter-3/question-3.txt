@@ -1,0 +1,41 @@
+Question 1.
+Functions are advantages as they compact code making is easier to read and to avoid repitition of code used multiple times throughtout a program.
+
+Question 2.
+The code in a function executes when the function is called, not when the function is defined.
+
+Question 3.
+the def statement creates a function.
+
+Question 4.
+A funtion defines a block of code, a series of statements. A function call executes that block of code.
+
+Question 5.
+There is one global scope in a python program but many local scopes (infinite?).
+
+Question 6.
+Variables in the local scope are forgotten once the function call returns.
+
+Question 7.
+The value a function call evaluates to is the return value. A return value can be used as part of an expression.
+
+Question 8.
+If a function does not have a return statement, it returns None which represents the absence of a value.
+
+Question 9.
+You can force a variable in a function to refer to a global variable by prefixing the variable with global.
+
+Question 10.
+The data type of None is the NoneType (the only value part of this data type).
+
+Question 11.
+The input areallyourpetsnamederic, imports the module names areallyourpetsnamederic
+
+Question 12.
+After importing the spam module, you would call the bacon() function using spam.bacon().
+
+Question 13.
+You can prevent a program from crashing when it gets an error by using the try and except clauses.
+
+Question 14.
+Code that potentially has an error gets put in the try clause. Code to deal with that error gets put in the except clause.
