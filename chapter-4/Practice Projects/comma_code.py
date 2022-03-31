@@ -1,24 +1,24 @@
 import copy
 
+
 def listToString(list: list[str]) -> str:
     if list == []:
-        return ''
-    
+        return ""
+
     newList = copy.copy(initialList)
-    newList.insert(-1, 'and')
-    newString = ''
+    newList.insert(-1, "and")
+    newString = ""
 
     for index in range(len(newList) - 2):
-        newList[index] += ','
+        newList[index] += ","
     for index in range(len(newList)):
-        newString += (newList[index] + ' ')
+        newString += newList[index] + " "
 
-    
     print(initialList)
     print(newList)
     print(newString)
 
-initialList = ['apples', 'bananas', 'tofu', 'cats']
+
+initialList = ["apples", "bananas", "tofu", "cats"]
 
 listToString(initialList)
-
