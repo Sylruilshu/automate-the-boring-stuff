@@ -1,0 +1,25 @@
+Question 1.
+empty = {}
+
+Question 2.
+{'foo': 42}
+
+Question 3.
+The main difference being lists store values in order, whereas dictionaries store key-value pairs.
+
+Question 4.
+It will result in a KeyError.
+
+Question 5.
+There is no difference. Both check for the Key 'cat'
+
+Question 6.
+'cat' in spam would look for the Key 'cat'.
+'cat' in spam.values() would look for the value 'cat'.
+
+Question 7.
+spam.setdefault('color', 'black')
+
+Question 8.
+import pprint.
+pprint.pprint()
