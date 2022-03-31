@@ -1,0 +1,62 @@
+Question 1.
+[] is an empty list value.
+
+Question 2.
+spam[2] = 'hello'
+
+Question 3.
+spam[int(int('3' * 2) // 11)] evaluates to 'd'
+
+Question 4.
+spam[-1] evaluates to 'd'
+
+Question 5.
+spam[:2] evaluates to ['a', 'b']
+
+Question 6.
+bacon.index('cat') evaluates to 1
+
+Question 7.
+bacon.append(99) would make the list value [3.14, 'cat', 11, 'cat', True, 99]
+
+Question 8.
+bacon.remove('cat') would make the list value [3.14, 11, 'cat', True, 99]
+
+Question 9.
+List concatanation +
+List replication *
+
+Question 10.
+append() method adds the value to the end of the list.
+insert() method adds the value to a specified index in the list.
+
+Question 11.
+Two ways to remove values from a list would be using the remove() method when the value is known or the del statement when the index of the value is known.
+
+Question 12.
+Lists and strings can be sliced.
+Passed to len()
+Concatanated/replicated
+Used with in and not in operators.
+
+Question 13.
+lists are defined using [] and are mutible, whereas, tuples are defined using () and are immutable.
+
+Question 14.
+(42,)
+
+Question 15.
+A tuple from a list can be achieved by calling the tuple() function on a list value.
+A list from a tuple can be achieved by calling the list () function on a tuple value.
+
+Question 16.
+Variables contain a reference to a list value.
+
+Question 17.
+copy.copy() is used to copy the list value and not the original reference to the list.
+copy.deepcopy() is used to copy a list within a list aswell as the list itself.
+
+
+
+
+
