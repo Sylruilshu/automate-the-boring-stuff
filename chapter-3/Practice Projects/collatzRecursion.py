@@ -1,6 +1,6 @@
 def collatz(number):
     if number == 1 or number == 0:
-        return 
+        return
     if number % 2 == 0:
         number = number // 2
         print(number)
@@ -10,6 +10,6 @@ def collatz(number):
     collatz(number)
 
 
-print('Enter a number: ')
+print("Enter a number: ")
 userNumber = int(input())
 collatzNumber = collatz(userNumber)
