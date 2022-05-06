@@ -3,8 +3,6 @@ table_data = [
     ["Alice", "Bob", "Carol", "David"],
     ["dogs", "cats", "moose", "goose"],
 ]
-
-
 def print_table(table):
     longest_word_lengths = determine_longest_word_length(table)
 
@@ -17,8 +15,6 @@ def print_table(table):
             padded_value = table[y][x].rjust(padding)
             print(padded_value, end=" ")
         print()
-
-
 def determine_longest_word_length(table):
     longest_word_length = []
 
