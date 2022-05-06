@@ -1,0 +1,42 @@
+Question 1.
+Escape characters allow you to use characters (\', \", \t, \n && \\) that can't normally be put into a string.
+
+Question 2.
+\n == newline
+\t == tab
+
+Question 3.
+\\ to put a backslash in a string.
+
+Question 4.
+There is not a problem using the single quote as it is nested inside a double quote.
+
+Question 5.
+New lines can be added to a string without \n by using triple quotes creating a multiline string.
+
+Question 6.
+'Hello, world!'[1] == 'e'
+
+'Hello, world!'[0:5] == "Hello"
+
+'Hello, world!'[:5] == "Hello"
+
+'Hello, world!'[3:] == "lo, world!"
+
+Question 7.
+'Hello'.upper() == "HELLO"
+
+'Hello'.upper().isupper() == True
+
+'Hello'.upper().lower() == "hello"
+
+Question 8.
+'Remember, remember, the fifth of November.'.split() == ["Remember,", "remember", "the", "fifth", "of", "November."]
+
+'-'.join('There can be only one.'.split()) == There-can-be-only-one.
+
+Question 9.
+Strings can be justified by using .rjust(), .ljust() && .center().
+
+Question 10.
+White space can be trimmed from the start and end of a string by using .strip()
