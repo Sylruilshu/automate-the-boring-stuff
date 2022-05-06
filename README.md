@@ -1,5 +1,7 @@
 # Automate-The-Boring-Stuff
 
+![main](https://github.com/Sylruilshu/Automate-The-Boring-Stuff/actions/workflows/ci.yaml/badge.svg?branch=main)
+
 Working through the book.
 
 ## Project setup
