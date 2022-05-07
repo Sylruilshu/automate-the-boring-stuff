@@ -1,0 +1,79 @@
+Question 1.
+re.compile() creates a Regex object.
+
+Question 2.
+Raw strings are often used when creating a Regex object as blackslashes are needed to create regex expressions.
+
+Question 3.
+The .search() returns a Match object
+
+Question 4.
+Using the .group() method will return the actual string from the Match object.
+
+Question 5.
+.group(0) would return the full phone number string.
+.group(1) would return the area code string.
+.group(2) would return the phone number string.
+
+Question 6.
+Using a backslash before a () or . will specify that you want to match the exact character.
+
+Question 7.
+Regex without groups will return a list of strings when using .findall()
+Regex with groups will return a list of tuples of strings when using .findall()
+
+Question 8.
+The | character signifies or in Regex.
+
+Question 9.
+The ? character can represent optional groups or for the result to be non-greedy depending on where it is used in the Regex.
+
+Question 10.
+The + character represents one or more in a Regex.
+The * represents zero or more in a Regex.
+
+Question 11.
+{3} will repeat the group 3 times.
+{3,5} will specify a range to match.
+
+Question 12.
+\d == any digit between 0-9.
+\w == any letter, number or an underscore character.
+\s == whitespace, tab or newline character.
+
+Question 13.
+\D == any character that is not a digit.
+\W == any character that is not a letter, digit or underscore.
+\S == any character that is not a whitespace, tab or newline.
+
+Question 14.
+.* == any character except a newline zero or more times.
+.*? == any characterexcept a newline zero or more times but the shortest (non-greedy) representation.
+
+Question 15.
+\d*[a-z]* to match all digits and all lowercase letters.
+
+Question 16.
+To make a Regex case-insensitive you pass re.IGNORECASE as the second argument to re.compile().
+
+Question 17.
+The . character is a wildcard and will match any character or digit except a newline character.
+If re.DOTALL is passed as the second argument to re.compile(), the . character will match any character including the newline charcter.
+
+Question 18.
+numRegex = re.compile(r'\d+')
+numRegex.sub('X', '12 drummers, 11 pipers, five rings, 3 hens')
+Will return:
+    "X drummers, X pipers, five rings, X hens"
+
+Question 19.
+Using re.VERBOSE as the second argument to re.compile() allows the Regex to be split up accross multiple lines, irnoring whitespace and for comments to be added.
+
+Question 20.
+re.compile(^\d{1,3}(,\d{3})*$)
+
+Question 21.
+re.compile([A-Z][a-zA-Z]+\sWatanabe)       #Answer in book has a slight error.
+
+Question 22.
+re.compile((Alice|Bob|Carol)\s(eats|pets|throws)\s(apples|cats|baseballs)\., re.I)
