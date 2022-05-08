@@ -1,0 +1,21 @@
+Question 1.
+PyInputPlus does not come with the Python Standard Library, it must be installed using pip install pyinputplus.
+
+Question 2.
+PyInputPlus commonly imported as pyip, as it is shorter and easier to write when using the PyInputPlus functions.
+
+Question 3.
+inputInt() returns an int value.
+inputFloat() returns a float value.
+
+Question 4.
+inputInt(min= 0, max= 99)
+
+Question 5.
+A list of Regex strings is passed to the allowRegexes && blockRegexes arguments.
+
+Question 6.
+The function will raise a RetryLimitException error.
+
+Question 7.
+The function returns the default value instead of of raising an exception.
