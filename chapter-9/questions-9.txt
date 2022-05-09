@@ -1,0 +1,38 @@
+Question 1.
+A relative path is relative to the current working directory.
+
+Question 2.
+An absolute path starts with the root folder.
+
+Question 3.
+Path('C:/Users') / 'Al' == WindowsPath('C:/Users/Al')
+
+Question 4.
+'C:/Users' / 'Al' would result in an TypeError as strings dont have / operator.
+
+Question 5.
+os.getcwd() returns a string value of the current working directory.
+os.chdir() allows the user to change the current working directory.
+
+Question 6.
+Both are not real folders, they can be used in a path.
+. == current directory.
+.. == parent directory.
+
+Question 7.
+C:\bacon\eggs\spam.txt
+C:\bacon\eggs\ == Dir name
+spam.txt == base name
+
+Question 8.
+open() can accept, 'r' for read only mode, 'w' for write mode and 'a' for append mode.
+
+Question 9.
+write mode will erase and overwrite the contents of the file.
+
+Question 10.
+read() returns the entire contents of a file as a string value.
+readline() returns a list of string values, one string for each line of text.
+
+Question 11.
+A shelf value resembles a dictionary like data structure. It has keys() and values() methods.
