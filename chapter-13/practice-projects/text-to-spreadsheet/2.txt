@@ -1,0 +1,6 @@
+Use the readlines() File object method to return a list of strings, 
+one string per line in the file. For the first file, 
+output the first line to column 1, row 1. 
+The second line should be written to column 1, row 2, and so on. 
+The next file that is read with readlines() will be written to column 2, 
+the next file to column 3, and so on.

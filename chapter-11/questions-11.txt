@@ -1,0 +1,46 @@
+Question 1.
+assert spam >= 10, "The spam variable is less than 10."
+
+Question 2.
+assert eggs.lower() != bacon.lower(), "The eggs and bacon variables are the same." 
+
+Question 3.
+assert False, "Assertion always triggers." 
+
+Question 4.
+import logging
+logging.basicConfig(level=logging.DEBUG, format='%(asctime)s -  %(levelname)s -  %(message)s')
+
+Question 5.
+import logging
+logging.basicConfig(filename='program_log.txt', level=logging.DEBUG, format='%(asctime)s -  %(levelname)s -  %(message)s')
+
+Question 6.
+DEBUG
+INFO
+WARNING
+ERROR
+CRITICAL
+
+Question 7.
+logging.disable(logging.CRITICAL)
+
+Question 8.
+Left over print() statements might accidently be left behind.
+Loggin messages can be disables without having to remove the logging function calls.
+Logging messages can be created, which include a timestamp.
+
+Question 9.
+Step over: will execute the next line of code. It will step over the code in a function.
+Step in: will execute the next line of code. If the line is a function call it will step into the function.
+Step out: will execute lines at full speed until it returns from a function.
+Continue: will execute the program normally until it terminates or reaches a breakpoint.
+
+Question 10.
+The program will execute until it terminates or reaches a breakpoint.
+
+Question 11.
+The debugger will execute code normally (at full speed) until it reaches a breakpoint, at which it will pause when the program execution reaches that line of code.
+
+Question 12.
+A breakpoint is set by clicking next to the line number, indicated by a red dot.

@@ -1,0 +1,12 @@
+Question 1.
+shutil.copy() will copy only a single file.
+shutil.copytree() will copy an entire folder, sub-folders and files contained within it.
+
+Question 2.
+shutil.move() is used to rename files and moving them.
+
+Question 3.
+shutil will permanently delete the files and folders, whereas, send2trash will move the files and folders to the recycling bin.
+
+Question 4.
+zipfile.ZipFile(filename , 'r or w or a')

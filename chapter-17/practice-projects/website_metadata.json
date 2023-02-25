@@ -1,0 +1,22 @@
+[
+    {
+        "name": "savagechicken",
+        "url": "https://www.savagechickens.com/",
+        "image selector": "img[src]",
+        "date selector": "span[class='date time published']",
+        "date": "January 1, 1970",
+        "image element number": 4,
+        "date element number": 0,
+        "header": {"User-Agent": "Mozilla/5.0"}
+    },
+    {
+        "name": "moonbeard",
+        "url": "https://moonbeard.com/",
+        "image selector": "img[src]",
+        "date selector": "span[class='post-date']",
+        "date": "January 1, 1970",
+        "image element number": 1,
+        "date element number": 0,
+        "header": {"User-Agent": "XY"}
+    }
+]
