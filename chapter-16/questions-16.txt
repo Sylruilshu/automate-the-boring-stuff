@@ -1,0 +1,24 @@
+Question 1.
+Excel spreadsheets can have values of data types other than strings.
+cells can have style. i.e bold, fonts && colour.
+can insert images and charts.
+
+Question 2.
+csv file object passed to csv.reader() && csv.writer()
+
+Question 3.
+open(csv_file_object)
+open(csv_file_object, "w", newline="")
+
+Question 4.
+.writerow(list)
+
+Question 5.
+delimiter sets the string used seperates each cell in a row.
+lineterminator sets the string used at the end of a row.
+
+Question 6.
+json.loads()
+
+Question 7.
+json.dumps()

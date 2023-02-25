@@ -1,0 +1,38 @@
+Question 1.
+SMTP - Simple Mail Transfer Protocol
+IMAP - Internet Message Access Protocol
+
+Question 2.
+smtplib..SMTP(smtp.example.com, 587)
+.ehlo()
+.starttls()
+.login(Email, Password)
+
+Question 3.
+imapclient.IMAPClient(imap.example.com, ssl=True)
+.login(Email, Password)
+
+Question 4.
+Pass in a list of strings of IMAP search keywords
+
+Question 5.
+import imaplib
+imaplib._MAXLINE = 10000000
+
+Question 6.
+pyzmail
+
+Question 7.
+credentials.json and token.json tell EZGmail which Google account to use  && gives python scripts access to the gmail account.
+
+Question 8.
+thread object is the entire conversation (multiple messages)
+message object is a single message in an email thread
+
+Question 9.
+.search('has:attachment')
+
+Question 10.
+Twilio SID
+Twilio auth token
+Twilio phone number

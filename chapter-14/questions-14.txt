@@ -1,0 +1,34 @@
+Question 1.
+credentials-sheet.json
+token-sheets.pickle
+token-drive.pickle
+
+Question 2.
+ezsheets.Spreadsheet && ezsheets.Sheet objects.
+
+Question 3.
+spreadsheet.downloadAsExcel()
+
+Question 4.
+spreadsheet = ezsheets.upload("Excel.xlsx")
+
+Question 5.
+spreadsheet["Student"]["B2"]
+
+Question 6.
+ezsheets.getColumnLetterOf(999)
+
+Question 7.
+sheet.rowCount
+sheet.columnCount
+
+Question 8.
+spreadsheet[0].delete()
+Deleting sheets is only permanent if permanent=True is passed as the keywork argument.
+
+Question 9.
+ezsheets.createSpreadsheet()
+spreadsheet.createSheet()
+
+Question 10.
+Exceeding the quota will raise the googleapiclient.errors.HttpError “Quota exceeded for quota group” exception, throttling method calls.

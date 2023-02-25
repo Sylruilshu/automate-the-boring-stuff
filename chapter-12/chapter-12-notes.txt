@@ -1,0 +1,101 @@
+WEBBROWSER MODULE
+
+import webbrowser
+webbrowser.open("URL") open web browser tab to url
+
+URL looks like: https://www.google.com/maps/place/870+Valencia+St/@37.7590311,-122.4215096,17z
+/data=!3m1!4b1!4m2!3m1!1s0x808f7e3dadc07a37:0xc86b0b2bb93b73d8.
+
+If you try: https://www.google.com/maps/place/870+Valencia+St+San+Francisco+CA/
+brings up correct page
+
+Program can open web browser to: 'https://www.google.com/maps/place/your_address_string'
+
+
+
+REQUESTS MODULE
+
+import requests
+response_object = requests.get('URL'), takes string of URL to download.
+
+Returns response object: <class 'requests.models.Response'>
+
+if request succeeded, downloaded web page is stored as a string in the Response object's TEXT variable.
+
+response_object.text returns string stored in text variable.
+
+response_objec.raise_for_status(): check whether download succeeded by calling raise_for_status() method on response object.
+Will halt if bad download occurs. Will do nothing if it succeeded.
+
+Can save web page to file by using open() and write(). file must be open in write binary "wb" mode.
+Using response object method iter_content() in a for loop.
+iter.content() method returns CHUNKS which are of BYTES data type. specify how many bytes each chunk will be (100,000)
+
+E.G:
+
+file = open('RomeoAndJuliet.txt', 'wb')
+for chunk in response_object.iter_content(100000):
+	file.write(chunk)
+
+
+
+HTML (hypertext markup language)
+
+HTML is a plaintext file with extention .html
+Text in these files are surrounded by TAGS
+TAGS are words enclosed in angle brackets (<>), tags tell browser how to format web page
+starting tag and closing tag enclose text to form an ELEMENT.
+
+E.G:
+
+<strong>Hello</strong>, world!
+
+Some tags have extra properties in the form of attributes within the <>
+
+E.G:
+
+<a> tag encloses text that should be a link.
+The URL the text links to is determined by the HREF attribute.
+
+Al's free <a href="https://inventwithpython.com">Python books</a>.
+
+
+<div class="col-sm-10 forecast-text">Sunny, with a high near 64. West wind 11 to 16 mph, with gusts as high as 21 mph.</div>
+Forecast information is contained inside a <div> element with the forecast-text CSS class
+
+
+
+PARSING HTML WITH BEAUTIFUL SOUP MODULE
+
+bs4 module for extracting info from an HTML
+bs4 will parse (analyze & identify the parts of) an HTML
+
+E.G:
+
+import bs4
+res = requests.get('https://nostarch.com')
+res.raise_for_status()
+noStarchSoup = bs4.BeautifulSoup(res.text, 'html.parser')
+
+Beautiful soup object: <class 'bs4.BeautifulSoup'>
+
+Can also load HTML file from HDD by passing file object to bs4.BeautifulSoup()
+
+Once you have beautiful soup object you can use methods to locate specific parts of an HTML document
+
+Can retrieve web page element from bs4 object by calling select() method & passing string of CSS selector
+Selectors are like regex (pattern to look for) in HTML instead of general strings.
+select() method returns list of tag objects. one tag object for every match in bs4 objects HTML
+Tag values can be passed to the str() function to show the HTML tags they represent
+
+Tag values also have attrs attribute that show all HTML attributes of tag as dictionary
+
+
+
+SELENIUM CONTROLLED BROWSER
+
+from selenium import webdriver
+browser = webdriver.Firefox()
+creates WebDriver object
+
+browser.get("URL")

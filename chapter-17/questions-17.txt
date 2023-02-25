@@ -1,0 +1,25 @@
+Question 1.
+Jan 1, 1970 at midnight. Standard reference
+
+Question 2.
+time.time()
+
+Question 3.
+time.sleep(5)
+
+Question 4.
+round() returns the closest interger 
+
+Question 5. 
+datetime object is a specific point in time.
+timedelta object is a specific amount of time.
+
+Question 6.
+datetime.datetime(2019, 1, 7).weekday() == 0 i.e Monday
+
+Question 7.
+thread = threading.Thread(target=spam)
+thread.start()
+
+Question 8.
+Code running in one thread should not read or write the same variables as code running in another thread.

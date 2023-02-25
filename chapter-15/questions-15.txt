@@ -1,0 +1,44 @@
+Question 1.
+pdf file object
+
+Question 2.
+"rb" && "wb"
+
+Question 3.
+.getPage(4)
+
+Question 4.
+.numPages
+
+Question 5.
+.decrypt("swordfish")
+
+Question 6.
+.roatateClockwise(angle)
+.rotateCounterClockwise(angle)
+
+Question 7.
+doxc.Document("demo.docx")
+
+Question 8.
+A paragraph object begins on a new line and contains multiple runs, whereas, a run is a segment of that paragraph.
+
+Question 9.
+doc.paragraphs
+
+Question 10.
+run objects
+
+Question 11.
+True = always bold
+False = never bold
+None = make run use style's bold setting
+
+Question 12.
+docx.Document()
+
+Question 13.
+doc.add_paragraph("Hello, there!")
+
+Question 14.
+0-4

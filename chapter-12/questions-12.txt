@@ -1,0 +1,68 @@
+Question 1.
+webbrowser: simply opens a web browser tab to specified URL.
+requests: downloads web page HTML and stores in a response object text variable as a string.
+          can save web page to file using open() in write binary mode.
+bs4: used to extract info from HTML by parsing HTML.
+selenium: used to control web browser.
+
+Question 2.
+Response object returned from requests.get()
+Can access downloaded content as a string by using .text
+
+Question 3.
+.raise_for_status()
+
+Question 4.
+.status_code
+
+question 5.
+Using open() in write binary mode and iter_content in a for loop.
+
+E.G
+
+file = open("name.txt", "wb")   
+for chunk in response_object.iter_content(100000):
+    file.write(chunk)
+
+Question 6.
+F12
+
+Question 7.
+Right click and then inspect.
+
+Question 8.
+soup.select('#main')
+
+Question 9.
+soup.select('.highlight')
+
+Question 10.
+soup.select('div div')
+
+Question 11.
+soup.select('button[value="favourite"]')
+
+Question 12.
+
+
+Question 13.
+
+
+Question 14.
+from selenium import webdriver
+
+Question 15.
+find_element_* returns first element matched
+find_elements_* returns all elements matching 
+
+Question 16.
+.click()
+.send_keys()
+
+Question 17.
+.submit()
+
+Question 18.
+browser.back()
+browser.forward()
+browser.refresh()
